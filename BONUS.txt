@@ -1,0 +1,19 @@
+﻿Nous avons ajouté:
+ - Un texte HighScore dans la barre de commandes qui affiche le plus haut score de la partie
+
+ - La vitesse horizontale des obstacles et de l'arrière-plan augmente à chaque fois que la touche 
+ 'e' est appuyée
+
+ - Si le fantome touche au sommet de l'ecran, un nuage acide apparait pour empecher
+    le joueur de rester tout le temps en haut de l'ecran
+
+ - Si le fantome touche au bas de l'ecran, un aspirateur de fantome apparait pour
+    empecher le joueur de rester tout le temps sur le sol
+
+ - Twado permet d'inverser le jeu. Plus précisément, lorsque le joueur tape la séquence de 
+lettres "twado", le scaling vertical de notre stackPane (lequel regroupe le canevas et 
+l'arrière-plan) est mis à -1, ce qui a pour effet d'inverser l'affichage. En retapant la 
+même séquence, le scaling en y de notre stackPane est remis à 1, ce qui inverse encore 
+l'affichage pour revenir à l'affichage de départ.
+
+ - La vitesse cesse d'augmenter après un certain nombre d'obstacles franchis
